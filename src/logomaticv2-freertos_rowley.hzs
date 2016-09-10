@@ -1,0 +1,68 @@
+<!DOCTYPE CrossStudio_for_ARM_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints/>
+ <ETMWindow>
+  <ETMRegister number="0" value="800" />
+  <ETMRegister number="8" value="6f" />
+  <ETMRegister number="9" value="1000000" />
+ </ETMWindow>
+ <ExecutionCountWindow/>
+ <Memory1>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory1>
+ <Memory2>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory2>
+ <Memory3>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory3>
+ <Memory4>
+  <MemoryWindow autoEvaluate="0" addressText="" numColumns="8" sizeText="" dataSize="1" radix="16" addressSpace="" />
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="logomaticv2-freertos_rowley" name="unnamed" />
+  <ProjectSessionItem path="logomaticv2-freertos_rowley;logomaticv2-freertos_rowley" name="unnamed" />
+  <ProjectSessionItem path="logomaticv2-freertos_rowley;logomaticv2-freertos_rowley;Source Files" name="unnamed" />
+  <ProjectSessionItem path="logomaticv2-freertos_rowley;logomaticv2-freertos_rowley;Source Files;Engine" name="unnamed" />
+  <ProjectSessionItem path="logomaticv2-freertos_rowley;logomaticv2-freertos_rowley;Source Files;Screen" name="unnamed" />
+ </Project>
+ <Register1>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register1>
+ <Register2>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register2>
+ <Register3>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register3>
+ <Register4>
+  <RegisterWindow openNodes="" binaryNodes="" hiddenNodes="" unsignedNodes="" visibleGroups="" decimalNodes="" octalNodes="" asciiNodes="" />
+ </Register4>
+ <TargetWindow programAction="" uploadFileType="" programLoadAddress="" programSize="" uploadFileName="" uploadMemoryInterface="" programFileName="" uploadStartAddress="" programFileType="" uploadSize="" programMemoryInterface="" />
+ <TraceWindow>
+  <Trace enabled="Yes" />
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never" />
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never" />
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never" />
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never" />
+ </Watch4>
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="66" debugPath="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\ZBuff\main.cpp" y="145" path="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\ZBuff\main.cpp" left="0" selected="1" name="unnamed" top="126" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\users\emfinger\dropbox\projects\3d\zbuffer code\trunk\engine\Polygon.h" y="110" path="C:\users\emfinger\dropbox\projects\3d\zbuffer code\trunk\engine\Polygon.h" left="0" selected="0" name="unnamed" top="110" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\Engine\Polygon.cpp" y="650" path="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\Engine\Polygon.cpp" left="0" selected="0" name="unnamed" top="646" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="28" debugPath="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\Engine\main.h" y="105" path="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\Engine\main.h" left="0" selected="0" name="unnamed" top="83" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="5" debugPath="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\ZBuff\lib\OLED.c" y="112" path="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\ZBuff\lib\OLED.c" left="0" selected="0" name="unnamed" top="99" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="12" debugPath="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\ZBuff\lib\OLED.h" y="107" path="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\ZBuff\lib\OLED.h" left="0" selected="0" name="unnamed" top="106" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Latin1" x="0" debugPath="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\Engine\Textures.h" y="5" path="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\Engine\Textures.h" left="0" selected="0" name="unnamed" top="5" />
+ </Files>
+ <ARMCrossStudioWindow activeProject="logomaticv2-freertos_rowley" autoConnectTarget="" debugSearchFileMap="" fileDialogInitialDirectory="C:\Users\emfinger\Dropbox\Projects\3D\Zbuffer Code\trunk\Sprites" fileDialogDefaultFilter="*.c" autoConnectCapabilities="0" debugSearchPath="" buildConfiguration="ARM Flash Debug" />
+</session>
