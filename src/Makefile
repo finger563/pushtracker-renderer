@@ -194,8 +194,7 @@ EXTRA_LIBS =
 
 MATH_LIB = -lm
 
-# CPLUSPLUS_LIB = -lstdc++
-
+CPLUSPLUS_LIB = -lstdc++
 
 # Linker flags.
 #  -Wl,...:     tell GCC to pass this to linker.
@@ -204,7 +203,7 @@ MATH_LIB = -lm
 LDFLAGS = -nostartfiles -Wl,-Map=$(TARGET).map,--cref
 LDFLAGS += -lc
 LDFLAGS += $(NEWLIBLPC) $(MATH_LIB)
-LDFLAGS += -lc -lgcc 
+LDFLAGS += -lc -lgcc
 LDFLAGS += $(CPLUSPLUS_LIB)
 LDFLAGS += $(patsubst %,-L%,$(EXTRA_LIBDIRS))
 LDFLAGS += $(patsubst %,-l%,$(EXTRA_LIBS))
@@ -344,6 +343,7 @@ sizeafter:
 # Display compiler version information.
 gccversion : 
 	@$(CC) --version
+	@$(CPP) --version
 
 
 # Program the device.
